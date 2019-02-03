@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans');
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background-color: #67aebe;
+  background: url('../images/trianglify.svg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+
+  @media screen and (max-width: 500px) {
+    background-size: auto;
+  }
+}
+
+/****** Font ******/
+p {
+  font-size: $s-size;
+  line-height: $m-size;
+  color: #393838;
+}
+
+h1 {
+  font-size: $l-size;
+  color: #393838;
+}
+
+h2 {
+  font-size: $m-size;
+  color: #393838;
+}
+
+a {
+  color: #17507f;
+
+  &:hover {
+    color: #03A9F4;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  // font-weight: bold;
+  text-decoration: underline !important;
+  // TODO: add ::after icon instead
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
