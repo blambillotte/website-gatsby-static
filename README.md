@@ -1,4 +1,3 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
@@ -22,8 +21,8 @@
 
 1.  **Default Ports**
 
-    Access site: `http://localhost:8000`!
+    Access site: `http://localhost:8000`
 
-    Access GraphQL data: `http://localhost:8000/___graphql`.
+    Access GraphQL data: `http://localhost:8000/___graphql`
 
 
