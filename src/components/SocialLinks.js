@@ -1,6 +1,6 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ReactGA from "react-ga";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ReactGA from 'react-ga';
 
 const SocialLinks = () => (
   <div className="links-flex">
@@ -9,7 +9,7 @@ const SocialLinks = () => (
       to="https://github.com/blambillotte"
       target="_blank"
     >
-      <FontAwesomeIcon icon={["fab", "github"]} />
+      <FontAwesomeIcon icon={['fab', 'github']} />
     </ReactGA.OutboundLink>
 
     <ReactGA.OutboundLink
@@ -17,7 +17,7 @@ const SocialLinks = () => (
       to="https://www.linkedin.com/in/benlambillotte/"
       target="_blank"
     >
-      <FontAwesomeIcon icon={["fab", "linkedin"]} />
+      <FontAwesomeIcon icon={['fab', 'linkedin']} />
     </ReactGA.OutboundLink>
 
     <ReactGA.OutboundLink
@@ -25,7 +25,7 @@ const SocialLinks = () => (
       to="https://www.instagram.com/blambillotte/"
       target="_blank"
     >
-      <FontAwesomeIcon icon={["fab", "instagram"]} />
+      <FontAwesomeIcon icon={['fab', 'instagram']} />
     </ReactGA.OutboundLink>
   </div>
 );

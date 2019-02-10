@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
 
-const MobileNavWrapper = (props) => (
+const MobileNavWrapper = props => (
   <div className="mobile-nav swing-down">
     <Nav />
   </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import Typing from 'react-typing-animation';
 
 const TypedText = () => (
-  <Typing speed={120} loop={true} startDelay={1000} >
+  <Typing speed={120} loop={true} startDelay={1000}>
     <span>Product Manager</span>
     <Typing.Backspace count={15} delay={2000} />
     <span>Engineer</span>

@@ -1,9 +1,7 @@
 import React from 'react';
 import Particles from 'particlesjs';
 
-
 class Particle extends React.Component {
-
   componentDidMount() {
     Particles.init({
       selector: '.particle',
@@ -14,13 +12,15 @@ class Particle extends React.Component {
       responsive: [
         {
           breakpoint: 768,
-          options: { maxParticles: 60, }
-        }, {
+          options: { maxParticles: 60 }
+        },
+        {
           breakpoint: 425,
           options: {
-            maxParticles: 50,
+            maxParticles: 50
           }
-        }, {
+        },
+        {
           breakpoint: 320,
           options: {
             maxParticles: 30 // disables particles.js
@@ -28,19 +28,18 @@ class Particle extends React.Component {
         }
       ]
     });
-  };
+  }
 
   componentWillUnmount() {
     Particles.destroy();
   }
 
-
   render() {
     return (
       <div>
-        <canvas className="particle"></canvas>
+        <canvas className="particle" />
       </div>
-    )
+    );
   }
 }
 

@@ -11,9 +11,7 @@ import SocialLinksWrapper from '../components/SocialLinkWrapper';
 import Nav from '../components/Nav';
 import MobileHeader from '../components/MobileHeader';
 
-
 class HomePage extends React.Component {
-
   // componentDidMount() {
   //   mouseTrack('particle-container');
   // };
@@ -27,9 +25,7 @@ class HomePage extends React.Component {
         <Nav />
         <MobileHeader />
 
-
         <div className="home-content-container">
-
           <div className="typewriter">
             <TypedText />
           </div>
@@ -37,7 +33,6 @@ class HomePage extends React.Component {
           <div className="mobile-social">
             <SocialLinks />
           </div>
-
         </div>
 
         <div className="particle-container" id="particle-container">
@@ -45,9 +40,8 @@ class HomePage extends React.Component {
         </div>
 
         <Footer />
-
       </div>
-    )
+    );
   }
 }
 
