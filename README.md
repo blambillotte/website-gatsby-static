@@ -12,8 +12,6 @@
 
 1.  **Developing.**
 
-    Navigate into your new site’s directory and start it up.
-
     ```sh
     cd website-gatsby-static/
     gatsby develop
