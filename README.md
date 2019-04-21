@@ -17,7 +17,7 @@
     gatsby develop
     ```
 
-1.  **Default Ports**
+2.  **Ports**
 
     Access site: `http://localhost:8000`
 
