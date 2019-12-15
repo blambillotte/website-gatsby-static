@@ -23,7 +23,6 @@ const PortfolioItemS = props => {
 
   const { allPortfolioListingJson: { edges: data }  } = portfolioData;
   if (!data) return null;
-    console.log(data);
   return (
     <ContentContainer
     content={data.map((data, i) => (
