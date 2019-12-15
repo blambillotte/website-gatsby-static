@@ -1,6 +1,6 @@
 import React from 'react';
 import PageWrapper from '../components/PageWrapper';
-import Particles from '../components/Particles';
+// import Particles from '../components/Particles';
 import TypedText from '../components/TypedText';
 import Footer from '../components/Footer';
 import NameHeader from '../components/NameHeader';
@@ -28,10 +28,10 @@ class HomePage extends React.Component {
               <SocialLinks />
             </div>
           </div>
-
+{/* 
           <div className="particle-container" id="particle-container">
             <Particles />
-          </div>
+          </div> */}
 
           <Footer />
         </div>
