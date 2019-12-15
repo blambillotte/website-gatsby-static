@@ -1,0 +1,51 @@
+.mobile-header {
+  display: none;
+  background-color: #1e68a6;
+  z-index: 1000;
+
+  .btn-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .mobile-name {
+      font-size: $m-size;
+      font-weight: 600;
+      color: white;
+      margin-left: 20px;
+    }
+  }
+
+  .nav-btn {
+    float: right;
+    width: 40px;
+    margin: 8px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    background: none;
+    color: white;
+    padding: 4px 10px;
+    font-size: 20px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+
+.mobile-nav {
+  // width: 100vw;
+  background-color: #1e68a6;
+  z-index: 100;
+
+  .side-nav {
+    display: block;
+    padding-bottom: 30px;
+
+    a {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+/****** Grid Layout ******/
+.main-grid {
+  display: grid;
+  grid-template-areas:  "header top-margin gtr-right"
+                        "nav content-container gtr-right";
+  grid-template-rows: 130px 1fr;
+  grid-template-columns: 220px minmax(400px,1000px) minmax(50px,1fr);
+}
+
+.header {
+  grid-area: header;
+}
+
+.top-margin {
+  grid-area: top-margin;
+  height: 100px;
+}
+
+.nav {
+  grid-area: nav;
+  // padding: 0 20px;
+}
+
+.gutter-right {
+  grid-area: gtr-right;
+}
+
+.mobile-header {
+  grid-area: mobile-header;
+}
+
+
+@media screen and (max-width: 750px) {
+  .main-grid {
+    grid-template-areas:  "mobile-header"
+                          "content-container";
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 1fr;
+  }
+  .header { display: none; }
+  .mobile-header { display: block !important; }
+  .top-margin { display: none };
+  // .side-nav { display: none; }
+}
