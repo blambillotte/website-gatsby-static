@@ -1,12 +1,6 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
   Personal Website Built with GatsbyJS
 </h1>
-
 
 ## 🚀 About
 
@@ -23,4 +17,7 @@
 
     Access GraphQL data: `http://localhost:8000/___graphql`
 
+2)  **Deployment**
 
+- Deploy with Github pages from Master
+- `yarn run deploy`
