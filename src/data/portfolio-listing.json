@@ -3,7 +3,7 @@
     "imgSrc": "/grantseeker.jpg",
     "imgAlt": "Grantseeker Product Screenshot",
     "title": "Grantseeker - Grant Management for Nonprofits",
-    "description": "Grantseeker is a modern web app, built with Elixir and React. It is a platform that helps nonprofits navigate the complex grant process so they can focus more on their mission and less on administration. From tracking deadlines to communicating impact to funders, Grantseeker is a complete solution for any grant seeking organization. As the initial product manager and later as an engineer, I lead the development from initial concept validation to adoption at scale to over 10,000 nonprofits.",
+    "description": "Grantseeker is a modern web app, built with Elixir and React. It is a platform that helps nonprofits navigate the complex grant process so they can focus more on their mission and less on administration. From tracking deadlines to communicating impact to funders, Grantseeker is a complete solution for any grant-seeking organization. As the initial product manager and later as an engineer, I lead the development from initial concept validation to adoption at scale to over 10,000 nonprofits.",
     "linkUrl": "https://grantseeker.fluxx.io/",
     "linkTitle": "Grantseeker Home"
   },
@@ -11,7 +11,7 @@
     "imgSrc": "/libation-library.png",
     "imgAlt": "Libation Library Product Screenshot",
     "title": "Libation Library - An App for Cocktail Recipe Experimentation",
-    "description": "This has been a passion project of mine, blending my love for craft cocktails with software development. This app is all about experimentation - allowing users to track changes across recipe versions to further perfect a drink.",
+    "description": "This has been a passion project of mine, blending my love for craft cocktails with software development. This app is all about experimentation - allowing users to track changes across recipe versions to further perfect a drink and keep tabs on their bottle inventory. This project is built with Elixir/Phoenix, React, and Postgres.",
     "linkUrl": "https://libationlibrary.com",
     "linkTitle": "Libation Library Home"
   },
@@ -24,11 +24,11 @@
     "linkTitle": "Grantmaker Page"
   },
   {
-    "imgSrc": "/Dice_Game.png",
-    "imgAlt": "Javascript Dice Game Screenshot",
-    "title": "JavaScript Dice Game",
-    "description": "A browser based game built in Vanilla JavaScript. Based off the dice game “pig”, this game allows two players to press their luck while completing for points. Players take turns rolling the dice to collect points towards a match goal.",
-    "linkUrl": "https://blambillotte.github.io/dice-game/",
-    "linkTitle": "View Game"
+    "imgSrc": "/ingredient_converter.png",
+    "imgAlt": "Ingredient Converter Screenshot",
+    "title": "Volume ⬌ Weight Ingredient Converter",
+    "description": "I built this app to solve a common problem in our household: how to easily convert old recipes between volume (cups, tablespoons, etc) and weight (grams/ounces). Hating to do extra dishes, I would rather put a single bowl on the scale and measure only with weight. The source data that powers this tool comes from the USDA as raw files containing specifications for commodity food products. With a bit of cleaning and processing, we can then extrapolate standard volume to weight conversions. The data processing pipeline was done in Elixir with the hosted UI built with React, Firebase, and Algolia.",
+    "linkUrl": "https://usda-weight-converter.web.app/",
+    "linkTitle": "Ingredient Converter App"
   }
 ]

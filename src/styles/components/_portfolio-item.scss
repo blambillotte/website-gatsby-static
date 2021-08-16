@@ -5,7 +5,7 @@
   position: relative;
 
   h2 {
-    color: #345A8A;
+    color: #345a8a;
   }
 
   p {
@@ -13,14 +13,14 @@
   }
 
   &:not(:last-child):after {
-      content : "";
-      position: absolute;
-      bottom: -20px;
-      height: 1px;
-      width: 70%;
-      border-bottom: 1px solid #d0d0d0;
-      align-self: center;
-    }
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    height: 1px;
+    width: 70%;
+    border-bottom: 1px solid #d0d0d0;
+    align-self: center;
+  }
 
   @media screen and (max-width: 1000px) {
     flex-direction: column;
@@ -29,6 +29,13 @@
     }
     .portfolio-content {
       margin-top: 0;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .portfolio-img > img {
+      max-width: 450px;
+      max-height: 350px;
     }
   }
 }
