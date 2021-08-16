@@ -1,5 +1,6 @@
 /****** Grid Layout ******/
 .main-grid {
+  height: 100vh;
   display: grid;
   grid-template-areas:
     'header top-margin gtr-right'
@@ -39,8 +40,9 @@
   .main-grid {
     grid-template-areas:
       'mobile-header'
-      'content-container';
-    grid-template-rows: 50px 1fr;
+      'content-container'
+      'footer';
+    grid-template-rows: 50px 1fr 30px;
     grid-template-columns: 1fr;
   }
   .header {
